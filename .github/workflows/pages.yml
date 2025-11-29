@@ -34,3 +34,4 @@ jobs:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_branch: pages
                   publish_dir: ./public
+                  enable_jekyll: false
